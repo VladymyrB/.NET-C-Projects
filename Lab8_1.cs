@@ -54,7 +54,7 @@ namespace Lab8
             }
         };
         private List<Car> _SearchedCars = new List<Car>();
-        //private Car _SearchedCar = new Car();
+       
         public void AddCar()
         {
             Car car = new Car();
