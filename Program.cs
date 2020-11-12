@@ -11,12 +11,12 @@ namespace Lab
             List<char> CharList = new List<char>();
             FillList(CharList);
             char[] CharArray = new char[CharList.Count];
-            ListToArray(CharList, ref CharArray); 
+            ListToArray(CharList,  CharArray); 
            
             Console.ReadLine();
         }
 
-        static void ListToArray( in List<Char> CharList, ref char[] CharArray )
+        static void ListToArray(  List<Char> CharList,  char[] CharArray )
         {
              for(int i = 0; i < CharList.Count; i++)
             {
